@@ -2,7 +2,13 @@
 
 Job application test app written in Swift, using SwiftUI, GoogleMaps and GoogleMapsUtils.
 
-![map](/images/image.png)
+<p align="center">
+  <img src="images/loading.png" width="350" title="loading view">
+  <img src="images/error.png" width="350" alt="error view">
+  <img src="images/map.png" width="350" alt="map view">
+</p>
+
+Three views showing app state: loading, error and map.
 
 ##  тестовое задание:
 
