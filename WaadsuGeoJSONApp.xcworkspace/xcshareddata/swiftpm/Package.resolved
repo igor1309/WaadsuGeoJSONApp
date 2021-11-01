@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GoogleMapsUtils",
+        "repositoryURL": "https://github.com/googlemaps/google-maps-ios-utils.git",
+        "state": {
+          "branch": null,
+          "revision": "0a80396e600a10bb14d9082e394175f3b1185305",
+          "version": "4.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
