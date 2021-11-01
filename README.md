@@ -5,9 +5,9 @@ Job application test app written in Swift, using SwiftUI, async/await, GoogleMap
 There are three views showing `app state`: loading, error and map:
 
 <p align="center">
-  <img src="images/loading.png" width="250" title="loading view">
-  <img src="images/error.png" width="250" alt="error view">
-  <img src="images/map.png" width="250" alt="map view">
+  <img src="images/loading.png" width="200" title="loading view">
+  <img src="images/error.png" width="200" alt="error view">
+  <img src="images/map.png" width="200" alt="map view">
 </p>
 
 * App state is driven by `AppViewModel`,
