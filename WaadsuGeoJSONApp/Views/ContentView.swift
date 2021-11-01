@@ -12,7 +12,9 @@ struct ContentView: View {
     
     var body: some View {
         Group {
+            // switch on app state to present the corresponding view
             switch viewModel.appState {
+                
             case .loading:
                 LoadingView()
                 

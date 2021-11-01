@@ -9,6 +9,13 @@ import Foundation
 
 extension Double {
     /// Convert units of the same unit of measure.
+    ///
+    /// For example,
+    /// ```swift
+    ///     let length: Double
+    ///     // ...
+    ///     length.convert(from: .meters, to: .kilometers)
+    /// ```
     func convert(
         from originalUnit: UnitLength,
         to convertedUnit: UnitLength

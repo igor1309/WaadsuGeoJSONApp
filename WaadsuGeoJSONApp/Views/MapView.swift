@@ -13,6 +13,7 @@ struct MapView: View {
     @State private var lengthInKm: Int?
     
     var body: some View {
+        // parse and draw GeoJSON data and calculate length
         GoogleMapsView(geoJSON: data, lengthInKm: $lengthInKm)
             .ignoresSafeArea(.all)
             .overlay(alignment: .topLeading, content: legend)

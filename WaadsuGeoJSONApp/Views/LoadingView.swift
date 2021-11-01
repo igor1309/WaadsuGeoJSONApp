@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Show loading indicator to represent loading app state.
 struct LoadingView: View {
     var body: some View {
         VStack(spacing: 16) {

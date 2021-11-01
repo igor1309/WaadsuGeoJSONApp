@@ -17,6 +17,7 @@ class AppDelegate: NSObject, UIApplicationDelegate    {
         if APIKey.isEmpty {
             fatalError("Please provide an API Key using mapsAPIKey")
         }
+        // required by Google Maps
         GMSServices.provideAPIKey(APIKey)
 
         return true

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view with an `error message` and `try again` button.
 struct ErrorView: View {
     let message: String
     let action: () -> Void
@@ -22,9 +23,9 @@ struct ErrorView: View {
                     .padding(.bottom)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                
-                Button("Try again", action: action)
-                    .buttonStyle(.borderedProminent)
+            
+            Button("Try again", action: action)
+                .buttonStyle(.borderedProminent)
         }
     }
 }

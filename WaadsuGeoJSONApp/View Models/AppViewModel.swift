@@ -18,11 +18,13 @@ final class AppViewModel: ObservableObject {
     
     private let networkClient: NetworkClient
     
+    /// Create `AppViewModel` injecting Network Client for testability.
     init(networkClient: NetworkClient) {
         self.networkClient = networkClient
         appState = .loading
     }
     
+    /// Fetch remote data and change app state.
     @MainActor
     func fetch() async {
         do {
